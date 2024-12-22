@@ -3,7 +3,6 @@ package br.com.laviquedias.api_todo_list.services;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import br.com.laviquedias.api_todo_list.entities.Todo;
