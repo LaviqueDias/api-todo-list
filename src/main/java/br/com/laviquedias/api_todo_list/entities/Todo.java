@@ -33,7 +33,7 @@ public class Todo {
     private String descricao_todo;
     
     @Column(nullable = false)
-    private boolean realizadoo_todo;
+    private boolean realizado_todo;
     
     @Column(nullable = false)
     private int prioridade_todo;

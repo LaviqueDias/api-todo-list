@@ -28,13 +28,10 @@ public class TodoService {
 
 
     public Set<Todo> list(){
-        Sort sort = Sort.by("prioridade_todo").descending().and(
-            Sort.by("nome").ascending()
-        );
 
         Set<Todo> todos = new HashSet<>();
 
-        for (Todo todo : todoRepository.findAll(sort)) {
+        for (Todo todo : todoRepository.findAll()) {
             todos.add(todo);
         }
 
